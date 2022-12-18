@@ -1,5 +1,5 @@
 defmodule Aoc2022.Day1Test do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
   test "p1 example" do
     assert 24_000 == Aoc2022.Day1.p1(example_1())
