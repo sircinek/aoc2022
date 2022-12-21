@@ -6,7 +6,7 @@ defmodule Aoc2022.Day1Test do
   end
 
   test "p2 example" do
-    assert 45000 == Aoc2022.Day1.p2(example_1())
+    assert 45_000 == Aoc2022.Day1.p2(example_1())
   end
 
   defp example_1 do
